@@ -1,16 +1,16 @@
-# React + Vite
+# Görev Yöneticisi (React TODO App)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Modern web teknolojileri kullanılarak geliştirilmiş, LocalStorage destekli ve gelişmiş özelliklere sahip bir görev takip uygulaması. Web Geliştirme; Yapay Zeka Eğitimi Projesi kapsamında hazırlanmıştır.
 
-Currently, two official plugins are available:
+## Öne Çıkan Özellikler
+* **Tam Kapsamlı CRUD:** Görev ekleme, listeleme, anında metin/saat düzenleme ve silme işlemleri.
+* **Öncelik Durumları:** Görevleri "Çok Acil", "Normal" ve "Acelesi Yok" şeklinde etiketleme.
+* **Zaman Aralığı:** Görevler için başlangıç ve bitiş saatleri belirleyebilme.
+* **Gelişmiş Filtreleme:** Tümü, Aktif ve Tamamlananlar sekmeleriyle verileri süzme.
+* **Toplu İşlemler:** Çoklu seçim yaparak aynı anda birden fazla görevi silme veya tamamlama.
+* **Veri Kalıcılığı:** LocalStorage entegrasyonu sayesinde sayfa yenilendiğinde veri kaybı yaşanmaz.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
-
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+##  Kullanılan Teknolojiler
+* **React.js**
+* **Vite** 
+* **Tailwind CSS v4**
